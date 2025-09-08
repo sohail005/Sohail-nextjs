@@ -35,10 +35,10 @@ function Header() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden flex items-center"
+          className="md:hidden flex items-center color-black"
           onClick={() => setIsOpen(!isOpen)}
         >
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
+          {isOpen ? <X size={28} color="#000" /> : <Menu size={28} color="#000" />}
         </button>
       </div>
 
