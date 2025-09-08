@@ -41,9 +41,9 @@ function Category() {
             key={index}
           >
             <CategoryItem
-              image={item.image}
               title={item.title}
               description={item.description}
+              image={item.image}
             />
 
             {/* Red card behind, appears on hover */}
