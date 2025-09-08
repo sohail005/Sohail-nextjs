@@ -1,6 +1,7 @@
 import Header from "@/Components/Header/Header";
 import MainContent from "@/Components/MainContent/MainContent";
 import Category from "@/Components/Category/Category";
+import TopSelling from "@/Components/TopSelling/TopSelling";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <MainContent />
       <Category />
+      <TopSelling />
     </div>
   );
 }

@@ -19,7 +19,7 @@ function MainContent() {
                     <div className='text-gray-500 flex items-center rounded-lg w-fit'>
                         <Image src={play} width={40} height={40} alt="Main Image" />
                         <button className='px-3 text-sendary rounded-lg whitespace-nowrap w-auto max-w-max text-sm md:text-base'>
-                            Find out more
+                            Play Demo
                         </button>
                     </div>
                 </div>
