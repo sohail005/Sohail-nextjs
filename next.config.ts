@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["thewowstyle.com"], // allow this external image domain
   },
+  font: {
+    poppins: ["Poppins", "sans-serif"],
+  },
 };
 
 export default nextConfig;
