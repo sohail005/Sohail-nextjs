@@ -5,8 +5,8 @@ import play from '../../Assets/Images/play-button.png'
 
 function MainContent() {
     return (
-        <div className='mt-10 p-4 max-w-7xl mx-auto flex flex-col md:flex-row gap-8'>
-            <div className='flex-1 my-10 md:my-20 h-auto md:h rounded-lg flex flex-col justify-center text-lg md:text-2xl text-gray-500'>
+        <div className='mx-auto flex flex-col md:flex-row gap-4 p-10 align-center justify-center'>
+            <div className='flex-1 my-12 md:my-10 h-auto md:h rounded-lg flex flex-col justify-center text-lg md:text-2xl text-gray-500'>
                 <p className='text-[#DF6951] font-bold text-base md:text-xl lg:text-2xl mb-2'>Best Destinations around the world</p>
                 <h1 className='text-black text-3xl md:text-5xl lg:text-6xl font-bold mt-2 md:mt-4'>Travel, enjoy and live a new and full life</h1>
                 <p className='text-gray-500 mt-2 md:mt-4 text-sm md:text-base lg:text-sm'>
@@ -24,8 +24,11 @@ function MainContent() {
                     </div>
                 </div>
             </div>
-            <div className='flex-1 p-10 md:my-22 h-auto md:h rounded-lg flex text-lg md:text-2xl text-gray-500'>
-                <Image src={Traveller} alt="Main Image" width={600} height={400} className='w-full h-full object-cover rounded-lg' />
+            <div className='flex-1 py-5 my-8 sm:my-1 md:my-8 h-auto rounded-lg flex justify-center items-center text-lg md:text-2xl text-gray-500 
+    w-[95%] sm:w-[40%] md:w-[50%]  lg:w-[50%] xl:w-[50%] 2xl:w-[40%] 
+    mx-auto transition-all'>
+                <Image src={Traveller} alt="Main Image" width={600} height={400} className='w-full h-auto object-cover rounded-lg' />
+
             </div>
         </div>
     )

@@ -30,14 +30,14 @@ function Category() {
     }
   ]
   return (
-    <div className='w-full h flex items-center justify-center flex-col gap-2 my-10 '>
+    <div className='w-full flex items-center justify-center flex-col '>
       <h1 className='text-1xl text-[#404040] font-bold'>CATEGORY</h1>
       <h1 className='text-4xl text-black font-bold'>We Offer Best Services</h1>
 
-      <div className="flex flex-wrap justify-center gap-8 md:gap-10 align-center">
+      <div className="flex flex-wrap justify-center md:gap-5 align-center ">
         {categories.map((item, index) => (
           <div
-            className="relative flex group my-4 w-full xs:w-[95%] sm:w-[48%] md:w-[32%] lg:w-[24%] xl:w-[20%] 2xl:w-[21%] transition-all"
+            className="relative justify-center align-center flex group my-2 xs:w-[95%] sm:w-[48%] md:w-[32%] lg:w-[24%] xl:w-[20%] 2xl:w-[20%] transition-all"
             key={index}
           >
             <CategoryItem
