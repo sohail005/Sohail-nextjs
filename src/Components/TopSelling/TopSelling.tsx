@@ -31,10 +31,10 @@ function TopSelling() {
             <h1 className='text-1xl text-[#404040] font-bold'>Top Selling</h1>
             <h1 className='text-4xl text-black font-bold'>Top Destinations</h1>
 
-            <div className="flex flex-wrap justify-center md:gap-20 align-center">
+            <div className="flex flex-wrap justify-center md:gap-20 align-center my-4">
                 {locations.map((item, index) => (
                     <div
-                        className="relative justify-center align-center flex group my-2 xs:w-[100%] sm:w-[45%] md:w-[32%] lg:w-[24%] xl:w-[20%] 2xl:w-[20%] transition-all"
+                        className="relative flex justify-center items-center group m-3 transition-all hover:rounded-xl hover:shadow max-w-full"
                         key={index}
                     >
                         <LocationCard
